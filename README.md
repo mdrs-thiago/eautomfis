@@ -7,8 +7,8 @@
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
 
 > The NumPy implementation of AutoMFIS used for the article *"Automatic generation of fuzzy
-> inference systems for multivariate time series forecasting"* (submitted to Fuzzy Sets &
-> Systems) is preserved at tag [`article-v1`](https://github.com/mdrs-thiago/eautomfis/tree/article-v1).
+> inference systems for multivariate time series forecasting"* (Fuzzy Sets and Systems, 470,
+> 108657, 2023) is preserved at tag [`article-v1`](https://github.com/mdrs-thiago/eautomfis/tree/article-v1).
 
 ## Overview
 
@@ -284,11 +284,14 @@ y_hat = Σ_r (w_r × f_r(x)) / Σ_r w_r
 If you use e-AutoMFIS in your research, please cite:
 
 ```bibtex
-@software{eautomfis2024,
-  title = {e-AutoMFIS: Ensemble Automatic TSK Fuzzy Inference System},
-  author = {Your Name},
-  year = {2024},
-  url = {https://github.com/yourusername/fuzzy}
+@article{carvalho2023automatic,
+  title={Automatic generation of fuzzy inference systems for multivariate time series forecasting},
+  author={Carvalho, Thiago and Vellasco, Marley and Amaral, Jos{\'e} Franco},
+  journal={Fuzzy Sets and Systems},
+  volume={470},
+  pages={108657},
+  year={2023},
+  publisher={Elsevier}
 }
 ```
 
