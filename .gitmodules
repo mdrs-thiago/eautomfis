@@ -1,0 +1,3 @@
+[submodule "fuzzy_torch"]
+	path = fuzzy_torch
+	url = https://github.com/mdrs-thiago/fuzzy_torch.git
